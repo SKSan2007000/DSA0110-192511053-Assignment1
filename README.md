@@ -1,90 +1,73 @@
-# City Metro Smart-Card Fare System — Assignment 1
+# City Metro Smart-Card Fare System – Assignment 1
 
-**Course outcome:** CO1 — Object-Oriented Programming and C++ Constructs  
-**Assignment:** Design, Implement and Validate the Fare Logic of a City Metro Smart-Card System
+**Course Outcome:** CO1 – Object-Oriented Programming and C++ Constructs
 
-## Student details
+**Assignment Title:** Design, Implement and Validate the Fare Logic of a City Metro Smart-Card System
 
-- **Name:** Replace with your full name
-- **Register number:** Replace with your register number
-- **Compiler:** Record the compiler and version used for your final run
-- **Repository:** `DSA01-<RegisterNumber>-Assignment1`
+**Name:** B. Santhosh Kumar  
+**Register Number:** 192511053  
+**Compiler:** GCC 16.2.0  
+**Repository:** `DSA01-192511053-Assignment1`
+
+## About the Assignment
+
+This assignment implements the fare calculation logic of a city metro smart-card system using C++. It covers data types, operators, control statements, functions, classes, and input validation.
+
+The programs calculate fares based on the selected zone and travel time. They also validate the smart-card balance before allowing a journey and demonstrate different C++ programming concepts.
 
 ## Requirements
 
-- C++17-compatible compiler (`g++` is used in the examples below)
-- Git, for progressive version-control submissions
+- C++17-compatible compiler
+- Git for version control
+- Terminal or command prompt for running programs
 
-Check the installed compiler version:
+## Tasks Included
 
-```bash
-g++ --version
-```
-
-## Compile and run
-
-From the repository root, compile any task using the source file in its folder. For example:
-
-```bash
-g++ -std=c++17 -Wall -Wextra -pedantic Task06/main.cpp -o task06
-```
-
-On Linux/macOS, run it with `./task06`. In Windows PowerShell, run `./task06.exe` (or `.\task06.exe`). Replace the source path and output name for the task you are working on.
-
-Task 07 contains two programs and should be compiled separately:
-
-```bash
-g++ -std=c++17 -Wall -Wextra -pedantic Task07/procedural.cpp -o task07_procedural
-g++ -std=c++17 -Wall -Wextra -pedantic Task07/oop.cpp -o task07_oop
-```
-
-## Repository contents
-
-- `Task01`–`Task12`: C++ source files organised by assignment task.
-- `sample_output.txt`: sample console output for selected non-interactive tasks. Confirm it against your own run.
-- `Assignment_Report.docx`: formatted assignment report.
-- `BUILD_AND_RUN_LOG.txt`: initial compilation check notes.
-
-## Task index
-
-| Folder | Purpose |
+| Task | Description |
 |---|---|
-| `Task01` | Identify objects and demonstrate encapsulation |
-| `Task02` | Tokens, constants and `enum class` |
-| `Task03` | Data types, sizes and integer limits |
-| `Task04` | Implicit conversions and signed/unsigned comparison |
-| `Task05` | Operators, precedence and arithmetic |
-| `Task06` | Fare calculation with control structures |
-| `Task07` | Procedural and object-oriented implementations |
-| `Task08` | Input validation and fare formatting |
-| `Task09` | Table-driven fare logic tests |
-| `Task10` | Aggregate volume and floating-point comparison |
-| `Task11` | Recommended fare design |
-| `Task12` | Airport zone, weekend discount and monthly pass |
+| Task 01 | Objects and encapsulation |
+| Task 02 | Tokens, constants and `enum class` |
+| Task 03 | Data types, sizes and integer limits |
+| Task 04 | Type conversions and signed/unsigned comparison |
+| Task 05 | Operators, precedence and arithmetic |
+| Task 06 | Fare calculation using control structures |
+| Task 07 | Procedural and object-oriented implementations |
+| Task 08 | Input validation and fare formatting |
+| Task 09 | Table-driven fare logic tests |
+| Task 10 | Aggregate volume and floating-point comparison |
+| Task 11 | Recommended fare design |
+| Task 12 | Airport zone, weekend discount and monthly pass |
 
-## Rules and assumptions
+## Fare Rules
 
-- Base fares: Inner ₹10, Middle ₹20, Outer ₹30. Task 12 adds Airport at ₹60.
-- Peak surcharge: 20% during 08:00–09:59 and 17:00–19:59.
-- The stored-value card must retain at least ₹50 after a fare deduction.
-- The assignment mentions student and senior concessions but does not specify their rates. No official percentage is assumed in this implementation.
-- Task 12 interprets “weekend discount does not combine with peak surcharge” as the 10% weekend discount taking priority over the peak surcharge. Confirm this interpretation with the faculty if required.
-- A monthly pass covers unlimited journeys in two selected zones while it is active.
+- Inner Zone – ₹10
+- Middle Zone – ₹20
+- Outer Zone – ₹30
+- Airport Zone – ₹60 (Task 12)
+- Peak-hour surcharge – 20% during 8:00–9:59 AM and 5:00–7:59 PM
+- Minimum remaining card balance – ₹50 after fare deduction
+- Student and senior concession rates are not assumed because the assignment does not specify them.
+- In Task 12, the 10% weekend discount takes priority over the peak surcharge. This interpretation can be confirmed with the faculty.
+- A monthly pass allows unlimited journeys in two selected zones while it is active.
 
-## Submission evidence
+## Files and Testing
 
-Before submission, run each program on your own computer and save genuine terminal screenshots in the matching task folder. Add input files where relevant, record the actual compiler version and compare the output with the sample output. For Tasks 4 and 5, write down the predicted output **before** executing the program.
+The repository contains the `Task01` to `Task12` folders, C++ source files, sample output files, and supporting assignment documents.
 
-## GitHub submission
+Each program should be tested before submission. The sample output must be checked against the actual execution output. Screenshots of successful runs should be saved in the corresponding task folders.
 
-Create a repository named `DSA01-<RegisterNumber>-Assignment1`. Keep it public or add the course faculty as a collaborator if private. Commit work progressively, with at least one meaningful commit per task; do not upload all work in a single final commit.
+For Tasks 04 and 05, record the predicted output before executing the programs.
 
-Example workflow:
+## GitHub Submission
+
+The project is maintained in GitHub. Changes should be committed progressively as each task is completed and tested.
+
+Example:
 
 ```bash
-git init
-git add README.md Task01
+git add README.md Task01/
 git commit -m "Add Task 01 object analysis and demo"
+git push origin main
 ```
 
-Repeat the add/commit process for each task after completing and testing it. Replace all student-detail placeholders and paste the repository URL into the report before submission.
+Repeat this process for the remaining tasks. Before submission, ensure that all required source files, sample outputs, and execution screenshots are present. Include the repository URL in the assignment report.
