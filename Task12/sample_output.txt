@@ -1,0 +1,4 @@
+Airport peak weekday | zone=Airport | fare=7200 paise | accepted | balance=12800 paise
+Airport weekend peak time | zone=Airport | fare=5400 paise | accepted | balance=7400 paise
+Inner zone covered by pass | zone=Inner | fare=0 paise | accepted | balance=7400 paise
+Rule: weekend discount overrides peak surcharge; discounts never stack.

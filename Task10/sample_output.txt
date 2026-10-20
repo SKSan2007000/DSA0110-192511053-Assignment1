@@ -1,0 +1,7 @@
+Journey count | total paise (long long) | int-safe?
+20000 | 20000000 | yes
+500000 | 500000000 | yes
+3000000 | 3000000000 | no
+Repeated double Rs 0.10 sum = 300000.000001957
+Integer-paise reference in rupees = 300000
+Difference in rupees = 1.95682514458895e-06

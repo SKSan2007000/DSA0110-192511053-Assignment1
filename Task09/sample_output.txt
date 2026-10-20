@@ -1,0 +1,12 @@
+PASS | Inner off-peak | fare=1000 paise | allowed=true
+PASS | Middle peak 08:00 | fare=2400 paise | allowed=true
+PASS | Outer at 10:00 | fare=3000 paise | allowed=true
+PASS | Inner peak 17:00 | fare=1200 paise | allowed=false
+PASS | Outer at 20:00 | fare=3000 paise | allowed=true
+PASS | Leaves exactly Rs 50 | fare=1000 paise | allowed=true
+PASS | Insufficient balance | fare=3600 paise | allowed=false
+PASS | Unknown zone 4 rejected
+PASS | Negative recharge rejected
+Passed 9/9 tests
+Hand-calculated five-journey total = 9600 paise (Rs 96)
+Boundary fare checks pass: true (08:00 peak, 10:00 off-peak, 17:00 peak, 20:00 off-peak)

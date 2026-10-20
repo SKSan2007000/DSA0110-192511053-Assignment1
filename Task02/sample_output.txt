@@ -1,0 +1,1 @@
+Middle fare = 2000 paise; peak surcharge = 20%; minimum balance = 5000 paise
