@@ -1,0 +1,9 @@
+Enter zone (1=Inner, 2=Middle, 3=Outer): 1
+Enter hour (0-23): 12
+Enter card balance in whole rupees: 100
+Peak hour: false
+Fare: Rs 10.00
+Balance before journey: Rs 100.00
+Journey allowed; remaining balance: Rs 90.00
+
+Program finished with exit code 0
