@@ -1,1 +1,12 @@
-Middle fare = 2000 paise; peak surcharge = 20%; minimum balance = 5000 paise
+METRO SMART-CARD SYSTEM
+Task 02: Tokens, Keywords, Identifiers and Constants
+
+Keywords: enum, class, const, int, return, switch, case
+Identifiers: Zone, INNER_FARE, MIDDLE_FARE, OUTER_FARE
+Constants: 1000, 2000, 3000 paise
+Operators: =, <<, ::
+Separators: ;, {, }, (, )
+
+Inner Zone Fare: 1000 paise
+Middle Zone Fare: 2000 paise
+Outer Zone Fare: 3000 paise
