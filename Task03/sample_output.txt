@@ -1,10 +1,17 @@
-sizeof(bool) = 1
-sizeof(char) = 1
-sizeof(int) = 4
-sizeof(long long) = 8
-sizeof(float) = 4
-sizeof(double) = 8
+METRO SMART-CARD SYSTEM
+Task 03: Data Types and Type Compatibility
+
+Size of bool = 1 byte(s)
+Size of char = 1 byte(s)
+Size of int = 4 byte(s)
+Size of long long = 8 byte(s)
+Size of float = 4 byte(s)
+Size of double = 8 byte(s)
+
 INT_MAX = 2147483647
 LLONG_MAX = 9223372036854775807
-3,000,000 journeys at Rs 10 = 3000000000 paise
-Fits in int? no
+
+Journey count = 3000000
+Fare per journey = 1000 paise
+Total fare = 3000000000 paise
+Fits in long long = yes
