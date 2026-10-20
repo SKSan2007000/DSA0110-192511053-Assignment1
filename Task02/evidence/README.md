@@ -36,6 +36,6 @@ Outer Zone Fare: 3000 paise
 The program compiled and executed successfully in OnlineGDB. It displayed the token categories and the fare constants for the Inner, Middle, and Outer zones.
 
 ## Evidence
-- `execution_output.png` – Screenshot showing the source code and successful execution output.
+- `execution_output1.png` – Screenshot showing the source code and successful execution output.
 
 Note: Execution was performed using OnlineGDB, not locally in VS Code.
