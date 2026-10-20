@@ -1,6 +1,7 @@
 METRO SMART-CARD SYSTEM
 Task 03: Data Types and Type Compatibility
 
+<<<<<<< HEAD
 Size of bool = 1 byte(s)
 Size of char = 1 byte(s)
 Size of int = 4 byte(s)
@@ -15,3 +16,16 @@ Journey count = 3000000
 Fare per journey = 1000 paise
 Total fare = 3000000000 paise
 Fits in long long = yes
+=======
+sizeof(bool) = 1 bytes
+sizeof(char) = 1 bytes
+sizeof(int) = 4 bytes
+sizeof(long long) = 8 bytes
+sizeof(float) = 4 bytes
+sizeof(double) = 8 bytes
+
+Journeys = 3000000
+Fare per journey = 1000 paise
+Total fare = 3000000000 paise
+Fits in long long = Yes
+>>>>>>> a66030a (Complete Task Metro smart-card fare calculation)

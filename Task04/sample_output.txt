@@ -1,4 +1,8 @@
-3 3.5
-C 68
-1 true
-s >= u
+METRO SMART-CARD SYSTEM
+Task 04: Implicit Type Conversions
+
+Integer division stored as double = 3
+Floating-point division = 3.5
+Character conversion = C
+Integer 5 converted to bool = true
+Comparison of -1 and 1 (signed/unsigned) = false
