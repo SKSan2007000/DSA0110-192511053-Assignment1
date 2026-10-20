@@ -1,0 +1,21 @@
+Initial source compilation check
+Compiler command: g++ -std=c++17 -Wall -Wextra -pedantic
+
+Source files compiled successfully:
+Task01/main.cpp
+Task02/main.cpp
+Task03/main.cpp
+Task04/main.cpp
+Task05/main.cpp
+Task06/main.cpp
+Task07/procedural.cpp
+Task07/oop.cpp
+Task08/main.cpp
+Task09/main.cpp
+Task10/main.cpp
+Task11/main.cpp
+Task12/main.cpp
+
+Task04 intentionally compares a signed int (-1) with an unsigned int (1) to demonstrate the usual arithmetic conversions. GCC reports a signedness warning for that expression; this is part of the concept being demonstrated, not a build failure.
+
+This log records a compile check in the preparation environment. The student must still compile and run each program locally, record the actual compiler version, and capture genuine output screenshots for submission.
