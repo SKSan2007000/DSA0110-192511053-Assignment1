@@ -1,27 +1,55 @@
 #include <iostream>
-#include <string_view>
+#include <string>
+using namespace std;
 
-enum class Zone { Inner, Middle, Outer };
+// Keywords: enum, class, const, int, return
+// Identifiers: Zone, INNER_FARE, zoneName, main
+// Constants: 1000, 2000, 3000
 
-constexpr long long INNER_FARE_PAISE = 1000;
-constexpr long long MIDDLE_FARE_PAISE = 2000;
-constexpr long long OUTER_FARE_PAISE = 3000;
-constexpr int PEAK_SURCHARGE_PERCENT = 20;
-constexpr long long MIN_BALANCE_PAISE = 5000;
+enum class Zone
+{
+    Inner,
+    Middle,
+    Outer
+};
 
-constexpr std::string_view zoneName(Zone z) {
-    switch (z) {
-        case Zone::Inner: return "Inner";
-        case Zone::Middle: return "Middle";
-        case Zone::Outer: return "Outer";
+const int INNER_FARE = 1000;
+const int MIDDLE_FARE = 2000;
+const int OUTER_FARE = 3000;
+
+string zoneName(Zone z)
+{
+    switch (z)
+    {
+        case Zone::Inner:
+            return "Inner";
+        case Zone::Middle:
+            return "Middle";
+        case Zone::Outer:
+            return "Outer";
     }
     return "Invalid";
 }
 
-int main() {
-    std::cout << zoneName(Zone::Middle) << " fare = "
-              << MIDDLE_FARE_PAISE << " paise; peak surcharge = "
-              << PEAK_SURCHARGE_PERCENT << "%; minimum balance = "
-              << MIN_BALANCE_PAISE << " paise\n";
+int main()
+{
+    cout << "METRO SMART-CARD SYSTEM\n";
+    cout << "Task 02: Tokens, Keywords, Identifiers and Constants\n\n";
+
+    cout << "Keywords: enum, class, const, int, return, switch, case\n";
+    cout << "Identifiers: Zone, INNER_FARE, MIDDLE_FARE, OUTER_FARE\n";
+    cout << "Constants: 1000, 2000, 3000 paise\n";
+    cout << "Operators: =, <<, ::\n";
+    cout << "Separators: ;, {, }, (, )\n\n";
+
+    cout << zoneName(Zone::Inner)
+         << " Zone Fare: " << INNER_FARE << " paise\n";
+
+    cout << zoneName(Zone::Middle)
+         << " Zone Fare: " << MIDDLE_FARE << " paise\n";
+
+    cout << zoneName(Zone::Outer)
+         << " Zone Fare: " << OUTER_FARE << " paise\n";
+
     return 0;
 }
